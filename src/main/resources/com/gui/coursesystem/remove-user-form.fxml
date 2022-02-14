@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="150.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.coursesystem.fxControllers.RemoveUserForm">
+   <children>
+      <TextField fx:id="idF" layoutX="78.0" layoutY="63.0" prefHeight="25.0" prefWidth="145.0" />
+      <Label layoutX="36.0" layoutY="25.0" prefHeight="17.0" prefWidth="228.0" text="Enter ID of the user you wish to delete" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="36.0" />
+      <Button layoutX="36.0" layoutY="103.0" mnemonicParsing="false" onAction="#deleteButton" prefHeight="25.0" prefWidth="70.0" text="Delete" />
+      <Button fx:id="cancelB" layoutX="190.0" layoutY="103.0" mnemonicParsing="false" onAction="#cancelButton" prefHeight="25.0" prefWidth="70.0" text="Cancel" />
+   </children>
+</AnchorPane>

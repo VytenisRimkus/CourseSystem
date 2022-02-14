@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.coursesystem.fxControllers.NewCourseForm">
+   <children>
+      <TextField fx:id="crsTitle" layoutX="119.0" layoutY="41.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextArea fx:id="crsDesc" layoutX="119.0" layoutY="116.0" prefHeight="200.0" prefWidth="200.0" />
+      <DatePicker fx:id="crsStartDate" layoutX="119.0" layoutY="367.0" prefHeight="25.0" prefWidth="200.0" />
+      <DatePicker fx:id="crsEndDate" layoutX="119.0" layoutY="415.0" prefHeight="25.0" prefWidth="200.0" />
+      <Label layoutX="25.0" layoutY="45.0" text="Course Name" />
+      <Label layoutX="12.0" layoutY="208.0" text="Course description" />
+      <Label layoutX="35.0" layoutY="371.0" text="Start date" />
+      <Label layoutX="35.0" layoutY="419.0" text="End date" />
+      <Button layoutX="25.0" layoutY="461.0" mnemonicParsing="false" onAction="#createCourse" prefHeight="25.0" prefWidth="84.0" text="Create" />
+      <Button fx:id="btnCancel" layoutX="262.0" layoutY="461.0" mnemonicParsing="false" onAction="#cancelBtn" prefHeight="25.0" prefWidth="84.0" text="Cancel" />
+   </children>
+</AnchorPane>
